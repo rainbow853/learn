@@ -1,44 +1,76 @@
 # Laws of Software Engineering 软件工程定律
 ## Decisions 决策
 ### Dunning-Kruger Effect  邓宁-克鲁格效应
-The less you know about something, the more confident you tend to be.
+The less you know about something, the more confident you tend to be.   
 对某件事了解得越少，往往就越自信。
 ![./dunning-kruger-effect](dunning-kruger-effect.png)
-> peak 顶峰 naivety 天真
-> valley 山谷 impostor 骗子
+> peak 顶峰 naivety 天真   
+> valley 山谷 impostor 骗子   
 > plateau 高原 maturity 到期；成熟度
 
 ### Hanlon's Razor  汉隆剃刀
-Never attribute to malice that which is adequately explained by stupidity or carelessness.
+Never attribute to malice that which is adequately explained by stupidity or carelessness.   
 永远不要把可以用愚蠢或粗心大意解释的事情归咎于恶意。
 ![./hanlons-razor](hanlons-razor.png)
-> malice 恶意；恶意
-> He acted out of malice.他出于恶意行事。
-> adequately 充分地；足够地
-> She explained the issue adequately
-> incompetence 无能力；不胜任
+> malice 恶意；恶意   
+> He acted out of malice.他出于恶意行事。   
+> adequately 充分地；足够地   
+> She explained the issue adequately   
+> incompetence 无能力；不胜任   
 > Due to incompetence, the project was delayed.由于无能力，项目被延误了
 
 ### Occam's Razor  奥卡姆剃刀
-The simplest explanation is often the most accurate one.
+The simplest explanation is often the most accurate one.   
 最简单的解释往往是最准确的。
 ![./occams-razor](occams-razor.png)
 
 ### Sunk Cost Fallacy  沉没成本谬误
-Sticking with a choice because you've invested time or energy in it, even when walking away helps you.
+Sticking with a choice because you've invested time or energy in it, even when walking away helps you.   
 即使放弃对你更有利，但因为你已经投入了时间和精力，所以仍然坚持自己的选择。
 ![./sunk-cost-fallacy](sunk-cost-fallacy.png)
-> stick 坚持；粘附
-> He was sticking to the plan.他坚持按计划行事。
-> invest 投资
+> stick 坚持；粘附   
+> He was sticking to the plan.他坚持按计划行事。   
+> invest 投资   
 > He invested in the stock market.他在股市投资了。
 
 ### The Map Is Not the Territory 地图并非疆域本身
-Our representations of reality are not the same as reality itself.
+Our representations of reality are not the same as reality itself.   
 我们对现实的认知与现实本身并不相同。
 ![./map-is-not-territory.png](map-is-not-territory.png)
 
 ### Confirmation Bias  确认偏差
-A tendency to favor information that supports our existing beliefs or ideas.
+A tendency to favor information that supports our existing beliefs or ideas.   
 倾向于选择支持我们现有信念或想法的信息。
 ![./confirmation-bias.png](confirmation-bias.png)
+
+### The Hype Cycle & Amara's Law 炒作周期与阿马拉定律
+We tend to overestimate the effect of a technology in the short run and underestimate the impact in the long run.   
+我们往往高估一项技术在短期内的影响，而低估其在长期内的影响。
+![./gartner-cycle.png](gartner-cycle.png)
+> hype 过度炒作；狂热  
+> The tech industry is full of hype.科技行业充满了炒作。
+
+### The Lindy Effect  林迪效应
+The longer something has been in use, the more likely it is to continue being used.   
+某物使用时间越长，就越有可能继续被使用。
+![./the-lindy-effect.jpg](the-lindy-effect.jpg)
+
+### First Principles Thinking 第一性原理思维
+Breaking a complex problem into its most basic blocks and then building up from there.   
+将复杂问题分解成最基本的部分，然后从这些基本部分入手解决问题。
+![./first-principles-thinking.png](first-principles-thinking.png)
+
+### Inversion 倒置
+Solving a problem by considering the opposite outcome and working backward from it.   
+通过考虑相反的结果并从中反向推导来解决问题。
+![./inversion.png](inversion.png)
+
+### Pareto Principle (80/20 Rule) 帕累托法则（80/20 法则）
+80% of the problems result from 20% of the causes.   
+80%的问题是由20%的原因造成的。
+![./pareto-principle.png](pareto-principle.png)
+
+### Cunningham's Law  坎宁安定律
+The best way to get the correct answer on the Internet is not to ask a question, it's to post the wrong answer.   
+在互联网上获得正确答案的最佳方法不是提问，而是发布错误答案。
+![./cunningham-law.png](cunningham-law.png)
