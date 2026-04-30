@@ -1,4 +1,65 @@
 # Laws of Software Engineering 软件工程定律
+## Architecture 建筑学
+### Hyrum's Law  海伦姆定律
+With a sufficient number of API users, all observable behaviors of your system will be depended on by somebody.   
+当 API 用户数量足够多时，你系统的所有可观察行为都将受到某些用户的依赖。
+![./hyrums-law.png](hyrums-law.png)
+> sufficient 足够的；充分的   
+
+### Gall's Law  加尔定律
+A complex system that works is invariably found to have evolved from a simple system that worked.   
+一个运转良好的复杂系统，无一例外都是由一个运转良好的简单系统演变而来。
+![./galls-law.png](galls-law.png)
+
+### The Law of Leaky Abstractions 抽象泄漏定律
+All non-trivial abstractions, to some degree, are leaky.   
+所有非平凡的抽象在某种程度上都是有缺陷的。
+![./leaky-abstractions.png](leaky-abstractions.png)
+> trivial 琐碎的；微不足道的；无意义的   
+
+### Tesler's Law (Conservation of Complexity) 泰斯勒定律（复杂性守恒定律）
+Every application has an inherent amount of irreducible complexity that can only be shifted, not eliminated.   
+每个应用程序都存在一定程度的固有复杂性，这种复杂性只能转移，而不能消除。  
+![./tesler-law.png](tesler-law.png)
+
+### CAP Theorem  CAP 定理
+A distributed system can guarantee only two of: consistency, availability, and partition tolerance.
+分布式系统只能保证以下三者中的两项：一致性、可用性和分区容错性。   
+![./CAP-theorem.png](CAP-theorem.png)
+> guarantee  确保；保证   
+
+### Second-System Effect  第二系统效应
+Small, successful systems tend to be followed by overengineered, bloated replacements.   
+小型、成功的系统之后，往往会出现过度设计、臃肿的替代系统。
+![./second-system-effect.jpeg](second-system-effect.jpeg)
+> bloated 肿胀的；臃肿的；庞大的
+
+### Fallacies of Distributed Computing 分布式计算的谬误
+A set of eight false assumptions that new distributed system designers often make.   
+新手分布式系统设计者常犯的八个错误假设。
+![./fallacies-of-distributed-computing.png](fallacies-of-distributed-computing.png)
+> 网络可靠
+> 延迟为零
+> 带宽无限
+> 网络是安全的
+> 拓扑结构不变
+> 只有一个管理员
+> 运输成本为零
+> 网络是同质的
+
+### Law of Unintended Consequences 意料之外的后果定律
+Whenever you change a complex system, expect surprise.   
+当你改变一个复杂的系统时，要做好应对意外情况的准备。
+![./law-of-unintended-consequences.png](law-of-unintended-consequences.png)
+> The Law of Unintended Consequences is often seen as a simple system that tries to regulate a complex system.   
+> 非预期后果定律通常被视为一个试图调节复杂系统的简单系统。
+
+### Zawinski's Law  扎温斯基定律
+Every program attempts to expand until it can read mail.   
+每个程序都会尝试扩展，直到能够读取邮件为止。
+![./zawinski-law.png](zawinski-law.png)
+
+
 ## Decisions 决策
 ### Dunning-Kruger Effect  邓宁-克鲁格效应
 The less you know about something, the more confident you tend to be.   
