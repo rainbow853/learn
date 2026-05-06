@@ -60,6 +60,57 @@ Every program attempts to expand until it can read mail.
 ![./zawinski-law.png](zawinski-law.png)
 
 
+## Teams 团队
+### Conway's Law 康威定律
+Organizations design systems that mirror their own communication structure.   
+组织会设计与自身沟通结构相呼应的系统。
+![./conways-law.png](conways-law.png)
+
+### Brooks's Law 布鲁克斯定律
+Adding manpower to a late software project makes it later.  
+给一个已经延期的软件项目增加人手只会让项目延期。
+![./brooks-law.png](brooks-law.png)
+
+### Dunbar's Number 邓巴数
+There is a cognitive limit of about 150 stable relationships one person can maintain.   
+一个人能够维持的稳定关系数量存在认知极限，大约为150个。
+![./dunbar-number.png](dunbar-number.png)
+> cognitive 认知的   
+
+### The Ringelmann Effect 林格尔曼效应
+Individual productivity decreases as group size increases.   
+随着群体规模的增大，个人生产力会下降。
+![./ringelmann-effect.png](ringelmann-effect.png)
+> coordination overhead 协同开销  
+> motivation drop 动力下降 
+
+### Price's Law 普莱斯定律
+The square root of the total number of participants does 50% of the work.   
+参与者总数的平方根完成了 50% 的工作。
+![./prices-law.png](prices-law.png)
+> assymetrical 不对称的   
+
+### Putt's Law 普特定律
+Those who understand technology don't manage it, and those who manage it don't understand it.   
+懂技术的人不擅长管理技术，而擅长管理技术的人却不了解技术。
+![./putts-law.png](putts-law.png)
+
+### Peter Principle 彼得原理
+In a hierarchy, every employee tends to rise to their level of incompetence.   
+在等级制度中，每个员工往往都会晋升到自己不胜任的级别。
+![./peter-principle.png](peter-principle.png)
+
+### Bus Factor 巴士因素
+The minimum number of team members whose loss would put the project in serious trouble.   
+团队中至少需要失去多少名成员才会使项目陷入严重困境。
+![./bus-factor.png](bus-factor.png)
+
+### Dilbert Principle 迪尔伯特原理
+Companies tend to promote incompetent employees to management to limit the damage they can do.   
+公司往往会提拔不称职的员工担任管理层，以减少他们可能造成的损失。
+![./dilbert-principle.png](dilbert-principle.png)
+
+
 ## Decisions 决策
 ### Dunning-Kruger Effect  邓宁-克鲁格效应
 The less you know about something, the more confident you tend to be.   
