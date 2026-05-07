@@ -111,6 +111,58 @@ Companies tend to promote incompetent employees to management to limit the damag
 ![./dilbert-principle.png](dilbert-principle.png)
 
 
+## Planning 规划
+### Premature Optimization (Knuth's Optimization Principle) 过早优化（克努特优化原理）
+Premature optimization is the root of all evil.   
+过早优化是万恶之源。
+![./premature-optimization.png](premature-optimization.png)
+> velocity 速度   
+
+### Parkinson's Law 帕金森定律
+Work expands to fill the time available for its completion.   
+工作量会不断增加，直至填满所有可用的完成时间。
+![./parkinson-law.png](parkinson-law.png)
+
+### The Ninety-Ninety Rule 九九十法则
+The first 90% of the code accounts for the first 90% of development time; the remaining 10% accounts for the other 90%.   
+前 90% 的代码占用了前 90% 的开发时间；剩下的 10% 占用了另外 90% 的开发时间。
+![./90-90-rule.png](90-90-rule.png)
+
+### Hofstadter's Law 霍夫斯塔特定律
+It always takes longer than you expect, even when you take into account Hofstadter's Law.   
+即使考虑到霍夫斯塔特定律，实际花费的时间也总是比你预期的要长。
+![./hofstadter-law.png](hofstadter-law.png)
+
+### Goodhart's Law 古德哈特定律
+When a measure becomes a target, it ceases to be a good measure.   
+当一项指标成为目标时，它就不再是一项好的指标了。
+![./goodharts-law.png](goodharts-law.png)
+> cease 停止；终止   
+
+### Gilb's Law 吉尔布定律
+Anything you need to quantify can be measured in some way better than not measuring it.   
+任何需要量化的事物，总有一种方法可以测量，而且这种方法比不测量要好。
+![./gilbs-law.png](gilbs-law.png)
+
+
+## Scale 规模
+### Amdahl's Law 阿姆达尔定律
+The speedup from parallelization is limited by the fraction of work that cannot be parallelized.   
+并行化带来的加速效果受限于无法并行化的工作比例。
+![./amdahl-law.png](amdahl-law.png)
+
+### Gustafson's Law 古斯塔夫森定律
+It is possible to achieve significant speedup in parallel processing by increasing the problem size.   
+通过增加问题规模，可以显著提高并行处理的速度。
+![./gustafson-law.png](gustafson-law.png)
+
+### Metcalfe's Law 梅特卡夫定律
+The value of a network is proportional to the square of the number of users.   
+网络的价值与用户数量的平方成正比。
+![./metcalfe-law.png](metcalfe-law.png)
+> proportional 与...成比例的
+
+
 ## Decisions 决策
 ### Dunning-Kruger Effect  邓宁-克鲁格效应
 The less you know about something, the more confident you tend to be.   
