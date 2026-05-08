@@ -1,5 +1,5 @@
 # Laws of Software Engineering 软件工程定律
-## Architecture 建筑学
+## Architecture 架构
 ### Hyrum's Law  海伦姆定律
 With a sufficient number of API users, all observable behaviors of your system will be depended on by somebody.   
 当 API 用户数量足够多时，你系统的所有可观察行为都将受到某些用户的依赖。
@@ -143,6 +143,64 @@ When a measure becomes a target, it ceases to be a good measure.
 Anything you need to quantify can be measured in some way better than not measuring it.   
 任何需要量化的事物，总有一种方法可以测量，而且这种方法比不测量要好。
 ![./gilbs-law.png](gilbs-law.png)
+
+
+## Quality 质量
+### The Boy Scout Rule 童子军规则
+Leave the code better than you found it.   
+让代码比你最初发现它时更好。
+![./boy-scout-rule.png](boy-scout-rule.png)
+
+### Murphy's Law / Sod's Law 墨菲定律/索德定律
+Anything that can go wrong will go wrong.   
+凡事皆有可能出错，而且一定会出错。
+![./murphy-law.png](murphy-law.png)
+
+### Postel's Law 波斯特尔定律
+Be conservative in what you do, be liberal in what you accept from others.   
+做事要保守，接受别人的东西要开明。
+![./postels-law.png](postels-law.png)
+
+### Broken Windows Theory 破窗理论
+Don't leave broken windows (bad designs, wrong decisions, or poor code) unrepaired.   
+不要让破损的窗户（糟糕的设计、错误的决策或低劣的代码）得不到修复。
+![./broken-window-theory.png](broken-window-theory.png)
+
+### Technical Debt 技术债务
+Technical Debt is everything that slows us down when developing software.   
+技术债务是指在软件开发过程中拖慢我们速度的一切因素。
+![./technical-debt.png](technical-debt.png)
+
+### Linus's Law 莱纳斯定律
+Given enough eyeballs, all bugs are shallow.   
+只要有足够的人关注，所有的虫子都会变得浅薄。
+![./linus-law.png](linus-law.png)
+
+### Kernighan's Law 克尼根定律
+Debugging is twice as hard as writing the code in the first place.   
+调试的难度是编写代码的两倍。
+![./kernighan-law.png](kernighan-law.png)
+
+### Testing Pyramid 测试金字塔
+A project should have many fast unit tests, fewer integration tests, and only a small number of UI tests.   
+一个项目应该有很多快速的单元测试，较少的集成测试，以及少量的 UI 测试。
+![./testing-pyramid.png](testing-pyramid.png)
+
+### Pesticide Paradox 农药悖论
+Repeatedly running the same tests becomes less effective over time.   
+反复进行相同的测试，随着时间的推移，效果会越来越差。
+![./pesticide-paradox.png](pesticide-paradox.png)
+
+### Lehman's Laws of Software Evolution 雷曼软件演化定律
+Software that reflects the real world must evolve, and that evolution has predictable limits.   
+反映现实世界的软件必须不断发展，而这种发展是有可预见的局限性的。
+![./lehman-laws.png](lehman-laws.png)
+> (1)持续变化 (2)日益复杂 (3)自我调节 (4)组织稳定性 (5)熟悉度 (6)持续增长 (7)质量下降 (8)反馈系统
+
+### Sturgeon's Law 斯特金定律
+90% of everything is crap.  
+90%的东西都是垃圾。
+![./sturgeon-law.png](sturgeon-law.png)
 
 
 ## Scale 规模
