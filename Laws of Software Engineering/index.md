@@ -221,6 +221,48 @@ The value of a network is proportional to the square of the number of users.
 > proportional 与...成比例的
 
 
+## Design 设计
+### YAGNI (You Aren't Gonna Need It)你不需要它
+Don't add functionality until it is necessary.   
+不到必要的时候不要添加功能。
+![./yagni.png](yagni.png)
+
+### DRY (Don't Repeat Yourself) 请勿重复
+Every piece of knowledge must have a single, unambiguous, authoritative representation.   
+每一项知识都必须有单一、明确、权威的表述。
+![./dry.png](dry.png)
+> unambiguous 明确的；不含糊的   
+
+### KISS (Keep It Simple, Stupid) 保持简单，笨蛋
+Designs and systems should be as simple as possible.   
+设计和系统应该尽可能简单。
+![./kiss.png](kiss.png)
+
+### SOLID Principles SOLID 原则
+Five main guidelines that enhance software design, making code more maintainable and scalable.   
+五项主要指导原则，可增强软件设计，使代码更易于维护和扩展。
+![./solid.png](solid.png)
+1. SRP 单一职责 （每个类只关注一个方面）
+2. OCP 开放/封闭 （对扩展开放，对修改封闭）
+3. LSP 里氏替换 （子类必须能够替换其父类）
+4. ISP 接口隔离 （不强制依赖未使用的接口）
+5. DIP 依赖倒置 （依赖抽象，而不是具体实现）
+> substitution 替换，替代   
+> seamlessly 无缝的
+
+### Law of Demeter 德墨忒尔法则
+An object should only interact with its immediate friends, not strangers.   
+物体应该只与它的近亲互动，而不应该与陌生人互动。
+![./law-of-demeter.png](law-of-demeter.png)
+> 德墨忒尔法则，又称“不要与陌生人交谈”或“最小知识原则”，其制定目的是为了最大限度地减少任何给定对象对整个系统结构的了解。   
+
+### Principle of Least Astonishment 最小惊讶原则
+Software and interfaces should behave in a way that least surprises users and other developers.   
+软件和界面的运行方式应该尽量避免让用户和其他开发者感到意外。
+![./principle-of-least-astonishment.png](principle-of-least-astonishment.png)
+> astonishment 惊讶，惊奇   
+
+
 ## Decisions 决策
 ### Dunning-Kruger Effect  邓宁-克鲁格效应
 The less you know about something, the more confident you tend to be.   
