@@ -1,4 +1,7 @@
 # Laws of Software Engineering 软件工程定律
+> https://lawsofsoftwareengineering.com/
+
+
 ## Architecture 架构
 ### Hyrum's Law  海伦姆定律
 With a sufficient number of API users, all observable behaviors of your system will be depended on by somebody.   
